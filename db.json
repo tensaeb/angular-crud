@@ -1,0 +1,370 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "dob": "1980-05-15",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "ACME Corp",
+      "experience": 5,
+      "package": 100
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "dob": "1990-03-22",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Tech Solutions Inc",
+      "experience": 10,
+      "package": 150
+    },
+    {
+      "id": 3,
+      "firstName": "David",
+      "lastName": "Johnson",
+      "email": "david.johnson@example.com",
+      "dob": "1975-08-10",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "InnovateTech",
+      "experience": 8,
+      "package": 120
+    },
+    {
+      "id": 4,
+      "firstName": "Linda",
+      "lastName": "Williams",
+      "email": "linda.williams@example.com",
+      "dob": "1988-02-18",
+      "gender": "female",
+      "education": "10+",
+      "company": "Global Systems",
+      "experience": 3,
+      "package": 70
+    },
+    {
+      "id": 5,
+      "firstName": "Robert",
+      "lastName": "Brown",
+      "email": "robert.brown@example.com",
+      "dob": "1995-07-25",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Tech Innovators",
+      "experience": 7,
+      "package": 95
+    },
+    {
+      "id": 6,
+      "firstName": "Maria",
+      "lastName": "Davis",
+      "email": "maria.davis@example.com",
+      "dob": "1983-12-07",
+      "gender": "female",
+      "education": "Matric",
+      "company": "Data Systems",
+      "experience": 12,
+      "package": 180
+    },
+    {
+      "id": 7,
+      "firstName": "William",
+      "lastName": "Jones",
+      "email": "william.jones@example.com",
+      "dob": "1986-09-30",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "InnoCorp",
+      "experience": 14,
+      "package": 170
+    },
+    {
+      "id": 8,
+      "firstName": "Patricia",
+      "lastName": "Martinez",
+      "email": "patricia.martinez@example.com",
+      "dob": "1992-04-13",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Tech Solutions Inc",
+      "experience": 9,
+      "package": 110
+    },
+    {
+      "id": 9,
+      "firstName": "Michael",
+      "lastName": "Wilson",
+      "email": "michael.wilson@example.com",
+      "dob": "1982-01-04",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Global Systems",
+      "experience": 6,
+      "package": 80
+    },
+    {
+      "id": 10,
+      "firstName": "Jennifer",
+      "lastName": "Taylor",
+      "email": "jennifer.taylor@example.com",
+      "dob": "1989-06-29",
+      "gender": "female",
+      "education": "10+",
+      "company": "Tech Innovators",
+      "experience": 2,
+      "package": 60
+    },
+    {
+      "id": 11,
+      "firstName": "James",
+      "lastName": "Moore",
+      "email": "james.moore@example.com",
+      "dob": "1987-11-12",
+      "gender": "male",
+      "education": "Matric",
+      "company": "Data Systems",
+      "experience": 15,
+      "package": 190
+    },
+    {
+      "id": 12,
+      "firstName": "Elizabeth",
+      "lastName": "Harris",
+      "email": "elizabeth.harris@example.com",
+      "dob": "1996-10-06",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "InnoCorp",
+      "experience": 11,
+      "package": 130
+    },
+    {
+      "id": 13,
+      "firstName": "Charles",
+      "lastName": "Clark",
+      "email": "charles.clark@example.com",
+      "dob": "1984-03-08",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Tech Solutions Inc",
+      "experience": 4,
+      "package": 50
+    },
+    {
+      "id": 14,
+      "firstName": "Mia",
+      "lastName": "Young",
+      "email": "mia.young@example.com",
+      "dob": "1981-07-03",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "Global Systems",
+      "experience": 7,
+      "package": 90
+    },
+    {
+      "id": 15,
+      "firstName": "Daniel",
+      "lastName": "Evans",
+      "email": "daniel.evans@example.com",
+      "dob": "1993-04-29",
+      "gender": "male",
+      "education": "10+",
+      "company": "Tech Innovators",
+      "experience": 8,
+      "package": 110
+    },
+    {
+      "id": 16,
+      "firstName": "Susan",
+      "lastName": "Lewis",
+      "email": "susan.lewis@example.com",
+      "dob": "1985-12-20",
+      "gender": "female",
+      "education": "Matric",
+      "company": "Data Systems",
+      "experience": 6,
+      "package": 70
+    },
+    {
+      "id": 17,
+      "firstName": "Matthew",
+      "lastName": "Turner",
+      "email": "matthew.turner@example.com",
+      "dob": "1983-09-16",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "InnoCorp",
+      "experience": 9,
+      "package": 120
+    },
+    {
+      "id": 18,
+      "firstName": "Karen",
+      "lastName": "Perez",
+      "email": "karen.perez@example.com",
+      "dob": "1994-06-10",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Tech Solutions Inc",
+      "experience": 11,
+      "package": 150
+    },
+    {
+      "id": 19,
+      "firstName": "Joseph",
+      "lastName": "Hall",
+      "email": "joseph.hall@example.com",
+      "dob": "1982-02-24",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Global Systems",
+      "experience": 8,
+      "package": 100
+    },
+    {
+      "id": 20,
+      "firstName": "Nancy",
+      "lastName": "Gonzalez",
+      "email": "nancy.gonzalez@example.com",
+      "dob": "1991-01-14",
+      "gender": "female",
+      "education": "10+",
+      "company": "Tech Innovators",
+      "experience": 5,
+      "package": 80
+    },
+    {
+      "id": 21,
+      "firstName": "Christopher",
+      "lastName": "Lee",
+      "email": "christopher.lee@example.com",
+      "dob": "1986-03-18",
+      "gender": "male",
+      "education": "Matric",
+      "company": "Data Systems",
+      "experience": 16,
+      "package": 180
+    },
+    {
+      "id": 22,
+      "firstName": "Margaret",
+      "lastName": "Scott",
+      "email": "margaret.scott@example.com",
+      "dob": "1987-08-02",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "InnoCorp",
+      "experience": 12,
+      "package": 130
+    },
+    {
+      "id": 23,
+      "firstName": "Andrew",
+      "lastName": "Walker",
+      "email": "andrew.walker@example.com",
+      "dob": "1997-12-05",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Tech Solutions Inc",
+      "experience": 3,
+      "package": 40
+    },
+    {
+      "id": 24,
+      "firstName": "Lori",
+      "lastName": "Green",
+      "email": "lori.green@example.com",
+      "dob": "1981-04-26",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "Global Systems",
+      "experience": 10,
+      "package": 120
+    },
+    {
+      "id": 25,
+      "firstName": "Kevin",
+      "lastName": "King",
+      "email": "kevin.king@example.com",
+      "dob": "1984-10-19",
+      "gender": "male",
+      "education": "10+",
+      "company": "Tech Innovators",
+      "experience": 7,
+      "package": 60
+    },
+    {
+      "id": 26,
+      "firstName": "Sandra",
+      "lastName": "Wright",
+      "email": "sandra.wright@example.com",
+      "dob": "1989-07-14",
+      "gender": "female",
+      "education": "Matric",
+      "company": "Data Systems",
+      "experience": 14,
+      "package": 170
+    },
+    {
+      "id": 27,
+      "firstName": "Mark",
+      "lastName": "Lopez",
+      "email": "mark.lopez@example.com",
+      "dob": "1983-03-29",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "InnoCorp",
+      "experience": 4,
+      "package": 50
+    },
+    {
+      "id": 28,
+      "firstName": "Lisa",
+      "lastName": "Adams",
+      "email": "lisa.adams@example.com",
+      "dob": "1990-11-01",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Tech Solutions Inc",
+      "experience": 13,
+      "package": 140
+    },
+    {
+      "id": 29,
+      "firstName": "Thomas",
+      "lastName": "Rivera",
+      "email": "thomas.rivera@example.com",
+      "dob": "1987-05-22",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "Global Systems",
+      "experience": 6,
+      "package": 70
+    }
+  ]
+}
