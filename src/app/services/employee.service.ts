@@ -8,23 +8,15 @@ import { Observable } from 'rxjs';
 export class EmployeeService {
   constructor(private _http: HttpClient) {}
   addEmployee(data: any): Observable<any> {
-    return this._http.post(
-      'https://vercel-json-nine.vercel.app/employees',
-      data
-    );
+    return this._http.post('http://localhost:3000/employees', data);
   }
   getEmployeeList(): Observable<any> {
-    return this._http.get('https://vercel-json-nine.vercel.app/employees');
+    return this._http.get('http://localhost:3000/employees');
   }
   deleteEmployee(id: number): Observable<any> {
-    return this._http.delete(
-      `https://vercel-json-nine.vercel.app/employees/${id}`
-    );
+    return this._http.delete(`http://localhost:3000/employees/${id}`);
   }
   updateEmployee(id: number, data: any): Observable<any> {
-    return this._http.put(
-      `https://vercel-json-nine.vercel.app/employees/${id}`,
-      data
-    );
+    return this._http.put(`http://localhost:3000/employees/${id}`, data);
   }
 }

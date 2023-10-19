@@ -16,7 +16,6 @@
   "profile": {
     "name": "typicode"
   },
-
   "employees": [
     {
       "id": 1,
@@ -125,18 +124,6 @@
       "company": "Global Systems",
       "experience": 6,
       "package": 80
-    },
-    {
-      "id": 10,
-      "firstName": "Jennifer",
-      "lastName": "Taylor",
-      "email": "jennifer.taylor@example.com",
-      "dob": "1989-06-29",
-      "gender": "female",
-      "education": "10+",
-      "company": "Tech Innovators",
-      "experience": 2,
-      "package": 60
     },
     {
       "id": 11,
@@ -365,6 +352,69 @@
       "company": "Global Systems",
       "experience": 6,
       "package": 70
+    }
+  ],
+  "signupUsersList": [
+    {
+      "name": "tensae ",
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 1
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 2
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 3
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 4
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 5
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 6
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 7
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 8
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 9
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 10
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 11
+    },
+    {
+      "email": "tensaeb2017@gmail.com",
+      "password": "1234567890",
+      "id": 12
     }
   ]
 }

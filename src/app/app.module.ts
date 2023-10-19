@@ -15,17 +15,30 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 //Component
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
+import { SignUpPageComponent } from './components/sign-up-page/sign-up-page.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { SpinnerComponent } from './spinner/spinner.component';
+import { LoaderInterceptor } from './interceptors/loader.interceptor';
 
 @NgModule({
-  declarations: [AppComponent, EmpAddEditComponent],
+  declarations: [
+    AppComponent,
+    EmpAddEditComponent,
+    SignUpPageComponent,
+    LoginPageComponent,
+    HomePageComponent,
+    SpinnerComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -46,8 +59,15 @@ import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,
+    MatProgressSpinnerModule,
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: LoaderInterceptor,
+      multi: true,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
